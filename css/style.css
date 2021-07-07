@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header*/
+
+header {
+    min-height: 80px;
+    background-color: blue;
+}
+
+.menu-nav {
+    width: 100%;
+    min-height: 80px;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.link a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.jumbotron {
+    min-height: 20vh;
+    background-color: yellowgreen;
+}
+
+/*main*/
+
+.avatar {
+    width: 30%;
+    height: 200px;
+    background-color: red;
+}
+
+.stella {
+    width: 190px;
+    height: 20px;
+    margin: 10px auto;
+    background-color: turquoise;
+}
+
+.description {
+    width: 250px;
+    height: 20px;
+    margin: 10px auto;
+    background-color: violet;
+}
