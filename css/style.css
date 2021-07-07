@@ -14,7 +14,7 @@ header {
 .menu-nav {
     width: 100%;
     min-height: 80px;
-    background-color: brown;
+    background-color: #2C3E50;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -28,29 +28,89 @@ header {
     color: white;
 }
 
-.jumbotron {
-    min-height: 20vh;
-    background-color: yellowgreen;
-}
+
 
 /*main*/
+._jumbotron {
+    min-height: 20vh;
+    background-color: #1ABC9C;
+}
 
-.avatar {
+._avatar {
     width: 30%;
     height: 200px;
     background-color: red;
 }
 
-.stella {
+._stella {
     width: 190px;
     height: 20px;
     margin: 10px auto;
     background-color: turquoise;
 }
 
-.description {
+._description {
     width: 250px;
     height: 20px;
     margin: 10px auto;
     background-color: violet;
 }
+
+._portfolio {
+    min-height: 20vh;
+    background-color: white;
+}
+
+._card {
+    height: 40vh;
+    padding: 10px;
+}
+
+._card img {
+    width: 100%;
+    height: 100%;
+    background-color: slateblue;
+}
+
+._about {
+    min-height: 20vh;
+    background-color: #1ABC9C;
+}
+
+.p-2 {
+    text-align: start;
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+
+._content {
+    width: 100%;
+    height: 200px;
+}
+
+._content2 {
+    width: 100%;
+    height: 40px;
+    margin: 70px auto;
+    background-color: white;
+}
+
+._btn2 {
+    text-align: start;
+    border-top: 1px solid black;
+}
+
+/*Footer*/
+
+._adress {
+    min-height: 20vh;
+    background-color: #3A546D;
+    color: white;
+}
+
+
+
+._copyright {background: #2C3E50;}
+._copyright span { font-size: small;
+color: white;}
+
