@@ -66,6 +66,7 @@ header {
 }
 
 ._card {
+    
     height: 300px;
     width: 100%;
     padding: 10px;
@@ -75,15 +76,25 @@ header {
     width: 100%;
     height: 100%;
     border-radius: 10px;
+    overflow: hidden;
 }
+
+._overlay {
+    display: none; top: 50%; left: 50%; transform: translate(-50%, -50%);
+}
+
+._overlay i {
+    font-size: 4em; color: white;
+}
+
+._port img {width: 100%; height: 100%; border-radius: 20px; overflow: hidden;}
+
 /*about*/
 ._about {
     min-height: 30vh;
     background-color: #1ABC9C;
     color: white;
 }
-
-
 
 /*form*/
 ._form {
@@ -96,10 +107,9 @@ header {
     border-bottom: 1px solid grey;
     border-radius: 0px;
 }
-
-
 /*fine-form*/
 
+/*contact me*/
 ._content {
     width: 100%;
     height: 200px;
@@ -119,8 +129,7 @@ header {
     margin: 70px auto;
     background-color: white;
 }
-
-
+/*fine contact me*/
 
 /*Footer*/
 
@@ -138,12 +147,16 @@ header {
 
 ._copyright {background: #2C3E50;}
 
-._copyright span { font-size: small;
+._copyright span { font-size: 16px;
 color: white;}
 
 /*Effetti*/
 
-._card img:hover {
-    filter: grayscale(1);
-}
+._overlay i {font-size: 60px; color: white;}
+
+._port:hover 
+
+._overlay {display: block;}
+
+._port:hover img {filter: brightness(0.4)}
 
