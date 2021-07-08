@@ -7,7 +7,7 @@
 /*header*/
 
 header {
-    min-height: 80px;
+    height: 80px;
     background-color: blue;
 }
 
@@ -28,53 +28,84 @@ header {
     color: white;
 }
 
-
-
 /*main*/
 ._jumbotron {
     min-height: 20vh;
     background-color: #1ABC9C;
+    color: white;
 }
 
-._avatar {
-    width: 30%;
+._avatar img {
+    width: 100%;
     height: 200px;
-    background-color: red;
+    margin-top: 40px;
+    
 }
 
 ._stella {
-    width: 190px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
     height: 20px;
     margin: 10px auto;
-    background-color: turquoise;
+    color: white;
+}
+
+._line , ._line2 {
+    width: 100px;
+    height: 7px;
+    background-color: white;
+    border-radius: 10px;
+    
 }
 
 ._description {
-    width: 250px;
+    width: 100%;
     height: 20px;
     margin: 10px auto;
-    background-color: violet;
+    
 }
-
+/*portfolio*/
 ._portfolio {
+    margin-top: 40px;
     min-height: 20vh;
     background-color: white;
+    color: black;
+}
+
+._port ._stella {
+    color: black;
+}
+
+._line3 , ._line4 {
+    width: 100px;
+    height: 7px;
+    background-color: black;
+    border-radius: 10px;
 }
 
 ._card {
-    height: 40vh;
+    height: 300px;
+    width: 100%;
     padding: 10px;
 }
 
 ._card img {
     width: 100%;
     height: 100%;
-    background-color: slateblue;
+    border-radius: 10px;
+}
+/*about*/
+._about {
+    min-height: 30vh;
+    background-color: #1ABC9C;
+    color: white;
 }
 
-._about {
-    min-height: 20vh;
-    background-color: #1ABC9C;
+.btn {
+    border-color: white;
 }
 
 .p-2 {
@@ -88,6 +119,14 @@ header {
     height: 200px;
 }
 
+._title4 {
+    margin-top: 40px;
+}
+
+._star2 {
+    color: black;
+}
+
 ._content2 {
     width: 100%;
     height: 40px;
@@ -98,6 +137,7 @@ header {
 ._btn2 {
     text-align: start;
     border-top: 1px solid black;
+    padding: 10px;
 }
 
 /*Footer*/
@@ -107,7 +147,6 @@ header {
     background-color: #3A546D;
     color: white;
 }
-
 
 
 ._copyright {background: #2C3E50;}
