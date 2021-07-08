@@ -66,12 +66,36 @@
                </div>
                <div class="img-port">
                    <div class="row">
-                       <div class="_card col-lg-4 col-md-6 col-12"><img src="img/cabin.png" alt=""></div>
-                       <div class="_card col-lg-4 col-md-6 col-12"><img src="img/cake.png" alt=""></div>
-                       <div class="_card col-lg-4 col-md-6 col-12"><img src="img/circus.png" alt=""></div>
-                       <div class="_card col-lg-4 col-md-6 col-12"><img src="img/game.png" alt=""></div>
-                       <div class="_card col-lg-4 col-md-6 col-12"><img src="img/safe.png" alt=""></div>
-                       <div class="_card col-lg-4 col-md-6 col-12"><img src="img/submarine.png" alt=""></div>
+                       <div class="_card col-lg-4 col-md-6 col-12"><img src="img/cabin.png" alt="">
+                           <div class="position-absolute _plus">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                       <div class="_card col-lg-4 col-md-6 col-12"><img src="img/cake.png" alt="">
+                            <div class="position-absolute _plus">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                        </div>
+                       <div class="_card col-lg-4 col-md-6 col-12"><img src="img/circus.png" alt="">
+                            <div class="position-absolute _plus">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                      </div>
+                       <div class="_card col-lg-4 col-md-6 col-12"><img src="img/game.png" alt="">
+                            <div class="position-absolute _plus">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                       </div>
+                       <div class="_card col-lg-4 col-md-6 col-12"><img src="img/safe.png" alt="">
+                            <div class="position-absolute _plus ">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                       </div>
+                       <div class="_card col-lg-4 col-md-6 col-12"><img src="img/submarine.png" alt="">
+                            <div class="position-absolute _plus">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                       </div>
                     </div>
                </div>
            </div>
@@ -110,20 +134,27 @@
                     <div class="_star2"><i class="fas fa-star"></i></div>
                     <div class="_line4"></div>
                </div>
-               <div class="_content">
-                    <div class="._information d-flex flex-column bd-highlight mb-3">
-                        <div class="p-2 bd-highlight">Name</div>
-                        <div class="p-2 bd-highlight"> Email Adress</div>
-                        <div class="p-2 bd-highlight">Phone Number</div>
-                    </div>
-                    <div class="d-flex flex-column-reverse bd-highlight">
-                        <div class="p-2 bd-highlight">Message</div>
-                    </div>
-                </div>
-
-                <div class="_content2">
-                    <div class="_btn2"><button type="button" class="btn btn-success">Send</button></div>
-
+               <!--Form-->
+               <div class="_form text-start container-fluid">
+                    <form>
+                        <div class="mb-2">
+                            <label for="contact__name">Name</label>
+                            <input type="text" class="form-control _control" id="contact__name" aria-describedby="textHelp">
+                        </div>
+                        <div class="mb-2">
+                            <label for="contact__mail">Email Address</label>
+                            <input type="email" class="form-control _control" id="contact__mail" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-2">
+                            <label for="contact__tel">Phone Number</label>
+                            <input type="tel" class="form-control _control" id="contact__tel" aria-describedby="telHelp">
+                        </div>
+                        <div class="mb-2">
+                            <label for="contact__textarea">Message</label>
+                            <textarea class="form-control _control" id="contact__textarea" aria-describedby="textareaHelp" rows="3"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-success">Send</button>
+                    </form>
                 </div>
             </div>
         </section>
